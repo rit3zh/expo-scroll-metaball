@@ -2,7 +2,7 @@
 
 Metaball profile header for React Native that melts into the Dynamic Island as you scroll.
 
-<!-- Add the demo video link here -->
+https://github.com/user-attachments/assets/066d8948-6708-458d-a4bf-a8bb81d0fd2f
 
 ---
 
