@@ -1,0 +1,13 @@
+diff --git a/nitrogen/generated/ios/c++/views/HybridTgfxViewComponent.mm b/nitrogen/generated/ios/c++/views/HybridTgfxViewComponent.mm
+index e18a52a3f6facc7a36c2d81b242d34bddd3a4ef0..eed91c0f58860cbc4f48efa8bdd7fa63b25a4d4c 100644
+--- a/nitrogen/generated/ios/c++/views/HybridTgfxViewComponent.mm
++++ b/nitrogen/generated/ios/c++/views/HybridTgfxViewComponent.mm
+@@ -50,6 +50,8 @@ using namespace margelo::nitro::tgfx::views;
+ 
+ - (instancetype) init {
+   if (self = [super init]) {
++    static const auto defaultProps = std::make_shared<const HybridTgfxViewProps>();
++    _props = defaultProps;
+     std::shared_ptr<HybridTgfxViewSpec> hybridView = NitroTgfx::NitroTgfxAutolinking::createTgfxView();
+     _hybridView = std::dynamic_pointer_cast<HybridTgfxViewSpecSwift>(hybridView);
+     [self updateView];
